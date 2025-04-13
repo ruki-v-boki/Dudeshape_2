@@ -1,6 +1,6 @@
-@import url('/src/styles/blocks/content/__section/about-us/__image/about-us__image.css');
-@import url('/src/styles/blocks/content/__section/about-us/__content/about-us__content.css');
-@import url('/src/styles/blocks/content/__section/about-us/__content/__advantages/advantages.css');
+@import url('src/styles/blocks/content/__section/about-us/__image/about-us__image.css');
+@import url('src/styles/blocks/content/__section/about-us/__content/about-us__content.css');
+@import url('src/styles/blocks/content/__section/about-us/__content/__advantages/advantages.css');
 
 .about-us {
     display: flex;
