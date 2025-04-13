@@ -1,10 +1,10 @@
-@import url('src/styles/blocks/content/__section/content__section.css');
-@import url('src/styles/blocks/content/__section/hero/hero.css');
-@import url('src/styles/blocks/content/__section/brands/brands.css');
-@import url('src/styles/blocks/content/__section/about-us/about-us.css');
-@import url('src/styles/blocks/content/__section/popular/popular.css');
-@import url('src/styles/blocks/content/__section/furniture/furniture.css');
-@import url('src/styles/blocks/content/__section/reviews/reviews.css');
+@import url('./__section/content__section.css');
+@import url('./__section/hero/hero.css');
+@import url('./__section/brands/brands.css');
+@import url('./__section/about-us/about-us.css');
+@import url('./__section/popular/popular.css');
+@import url('./__section/furniture/furniture.css');
+@import url('./__section/reviews/reviews.css');
 
 
 .content {
