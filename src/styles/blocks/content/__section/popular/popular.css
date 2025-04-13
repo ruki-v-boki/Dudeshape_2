@@ -1,4 +1,4 @@
-@import url('./__slider/popular__slider.css');
+@import url('/src/styles/blocks/content/__section/popular/__slider/popular__slider.css');
 
 .popular {
     padding-top: 140px;
