@@ -1,7 +1,7 @@
-@import url('src/styles/blocks/content/__section/popular/__slider/__nav-box/slider__nav-box.css');
-@import url('src/styles/blocks/content/__section/popular/__slider/__slides-container/slider__slides-container.css');
-@import url('src/styles/blocks/content/__section/popular/__slider/__slides-list/slider__slides-list.css');
-@import url('src/styles/blocks/content/__section/popular/__slider/card/card.css');
+@import url('./__nav-box/slider__nav-box.css');
+@import url('./__slides-container/slider__slides-container.css');
+@import url('./__slides-list/slider__slides-list.css');
+@import url('./card/card.css');
 
 .popular__slider {
     padding-bottom: 80px;

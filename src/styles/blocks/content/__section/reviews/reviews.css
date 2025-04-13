@@ -1,6 +1,6 @@
-@import url('src/styles/blocks/content/__section/reviews/__image-box/review__image-box.css');
-@import url('src/styles/blocks/content/__section/reviews/__content/reviews__content.css');
-@import url('src/styles/blocks/content/__section/reviews/__author-box/reviews__author-box.css');
+@import url('./__image-box/review__image-box.css');
+@import url('./__content/reviews__content.css');
+@import url('./__author-box/reviews__author-box.css');
 
 
 .reviews {

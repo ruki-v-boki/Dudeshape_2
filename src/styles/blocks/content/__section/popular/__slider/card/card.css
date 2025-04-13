@@ -1,7 +1,7 @@
-@import url('src/styles/blocks/content/__section/popular/__slider/card/__image/card__image.css');
-@import url('src/styles/blocks/content/__section/popular/__slider/card/__content-box/card__content-box.css');
-@import url('src/styles/blocks/content/__section/popular/__slider/card/__content/card__content.css');
-@import url('src/styles/blocks/content/__section/popular/__slider/card/__buttons-box/card__buttons-box.css');
+@import url('./__image/card__image.css');
+@import url('./__content-box/card__content-box.css');
+@import url('./__content/card__content.css');
+@import url('./__buttons-box/card__buttons-box.css');
 
 .card {
     display: flex;
