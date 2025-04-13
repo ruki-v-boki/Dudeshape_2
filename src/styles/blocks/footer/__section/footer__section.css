@@ -1,0 +1,16 @@
+@import url('./--start/footer__section--start.css');
+@import url('./--center/footer__section--center.css');
+@import url('./--end/footer__section--end.css');
+
+
+.footer__section {
+    display: flex;
+}
+
+.footer__section-text {
+    padding-top: 25px;
+    color: var(--bg-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}

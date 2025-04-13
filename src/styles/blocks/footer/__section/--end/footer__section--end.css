@@ -1,0 +1,45 @@
+.footer__section--end {
+    color: var(--bg-color);
+    padding-left: 123px;
+    max-width: 370px;
+}
+
+.footer__form {
+    padding-top: 3px;
+}
+
+.footer__form-title {
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    padding-bottom: 24px;
+}
+
+.footer__form-text {
+    font-size: 18px;
+    line-height: 23px;
+    max-width: 260px;
+    padding-bottom: 40px;
+}
+
+.footer__form-input-box {
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    padding: 10px 12px 9px 22px;
+    width: 253px;
+}
+
+.footer__form-input {
+    width: 100%;
+    color: var(--title-color);
+}
+
+.footer__form-button {
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.footer__form-button:hover svg circle {
+    fill: #FFB624;
+}

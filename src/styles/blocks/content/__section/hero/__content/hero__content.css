@@ -31,8 +31,8 @@
 }
 
 .hero__link:hover {
-    outline: 1px solid var(--bg-color);
+    outline: 1px solid #FFB624;
     color: var(--bg-color);
-    background-color: var(--accent-color-dark);
+    background-color: var(--footer-bg-color);
     transition: color 0.3s, background-color 0.3s, outline 0.3s;
 }

@@ -1,0 +1,10 @@
+@import url('./socials/socials.css');
+
+.footer__section--start {
+    max-width: 308px;
+    flex-direction: column;
+}
+
+.footer__logo {
+    color: var(--bg-color);
+}

@@ -1,6 +1,9 @@
 .header__logo {
     color: var(--accent-color-dark);
+    padding: 8px 0;
+}
+
+.logo {
     font-family: var(--secondary-font);
     font-size: 24px;
-    padding: 8px 0;
 }

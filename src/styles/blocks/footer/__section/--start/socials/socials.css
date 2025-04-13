@@ -1,0 +1,18 @@
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.socials__title {
+    color: var(--bg-color);
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.socials__buttons-box {
+    display: flex;
+    gap: 15px;
+}

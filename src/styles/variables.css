@@ -3,6 +3,7 @@
     --secondary-font: 'Montserrat';
 
     --bg-color: #ffff;
+    --bg-color-secondary: #F4F6F6;
     --shadow-color: #DEE4E2;
     --accent-color: #154444;
     --accent-color-dark: #244D4D;
@@ -17,4 +18,6 @@
 
     --category-title-color: #919090;
     --border-color: #D9DCE5;
+
+    --footer-bg-color: #305F64;
 }

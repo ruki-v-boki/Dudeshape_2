@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    align-items: center;
+    width: 472px;
+    padding: 7px 20px 8px 17px;
+    background-color: var(--bg-color);
+}
+
+.form__input {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.form__input::placeholder {
+    color: #BABABA;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.form__button {
+    margin-left: 10px;
+    padding: 15px 32px;
+    color: var(--bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: var(--footer-bg-color);
+}
+
+.form__button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.form svg {
+    width: 30px;
+    height: 18px;
+}

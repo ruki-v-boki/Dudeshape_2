@@ -1,0 +1,25 @@
+.footer__section--center {
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 3px;
+    padding-left: 157px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--bg-color);
+}
+
+.footer__list-item {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer__list-item--title {
+    padding-bottom: 10px;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 26px;
+}

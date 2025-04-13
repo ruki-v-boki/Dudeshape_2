@@ -1,0 +1,27 @@
+@import url('./__section/footer__section.css');
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 442px;
+    padding-bottom: 20px;
+    background-color: var(--footer-bg-color);
+}
+
+.footer__content {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 35px;
+    padding-inline: 120px;
+}
+
+.footer__copyright {
+    margin-top: auto;
+    border-top: 1px solid #407980;
+    padding-top: 20px;
+    color: var(--bg-color);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}

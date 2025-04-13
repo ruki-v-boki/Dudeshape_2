@@ -4,6 +4,9 @@
 *::before {
   box-sizing: border-box;
 }
+*:focus-visible {
+  outline: 3px solid #FFB624;
+}
 
 body {
   display: flex;
@@ -54,6 +57,7 @@ ol {
 
 img {
   display: block;
+  overflow: clip;
 }
 
 .visually-hidden {
