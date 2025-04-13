@@ -1,0 +1,22 @@
+.content__section {
+    inline-size: 1230px;
+    padding-inline: 15px;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 2s cubic-bezier(0.2, 0.8, 0.4, 1) forwards;
+    animation-delay: 1s
+}
+
+/* Начальное состояние секций */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 2s ease-out, transform 1s ease-out;
+}
+
+/* Класс, который добавляется при появлении */
+.scroll-animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

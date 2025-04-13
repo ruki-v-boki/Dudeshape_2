@@ -1,0 +1,28 @@
+.slider__nav-box {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    margin-top: -44px;
+    padding-inline: 15px;
+}
+
+.slider__button-nav {
+    display: flex;
+    align-items: center;
+}
+
+.slider__button-nav--next {
+    rotate: -180deg;
+}
+
+.slider__button-nav:hover svg path {
+    fill: var(--nav-arrow-hover-color);
+}
+
+.slider__button-nav-disabled {
+    cursor: default;
+    pointer-events: none;
+}
+.slider__button-nav-disabled:hover svg path {
+    fill: #D1CECE;
+}

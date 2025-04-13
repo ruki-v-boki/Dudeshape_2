@@ -1,0 +1,11 @@
+@import url('./__image/card__image.css');
+@import url('./__content-box/card__content-box.css');
+@import url('./__content/card__content.css');
+@import url('./__buttons-box/card__buttons-box.css');
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 13px 26px rgb(0 0 0 / 7%);
+}

@@ -1,0 +1,40 @@
+.card__buttons-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.like-share-buttons-box {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 6px;
+}
+
+.like-share-buttons:hover svg circle {
+    fill: var(--like-share-hover-color);
+}
+
+.like-button-active svg circle, 
+.like-button-active:hover svg circle {
+    fill: var(--like-share-active-color);
+}
+
+.like-button-active svg path {
+    fill: var(--bg-color);
+}
+
+
+.card__button {
+    padding: 5px 15px;
+    color: var(--bg-color);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    text-transform: capitalize;
+    background-color: var(--accent-color-dark);
+}
+
+.card__button:hover {
+    background-color: var(--accent-color);
+}

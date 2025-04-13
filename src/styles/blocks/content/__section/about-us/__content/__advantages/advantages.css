@@ -1,0 +1,30 @@
+.advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.advantages__item {
+    display: flex;
+    gap: 27px;
+}
+
+.advantages__item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.advantages__item-title {
+    color: var(--accent-color-dark);
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.advantages__item-text {
+    max-width: 306px;
+    color: var(--text-color-secondary);
+    font-size: 18px;
+    line-height: 26px;
+}

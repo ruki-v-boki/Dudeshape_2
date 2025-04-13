@@ -1,0 +1,21 @@
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    margin-left: -90px;
+}
+
+.header__menu-link {
+    padding: 12px 23px;
+    color: var(--title-color);
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.header__menu-link:hover {
+    outline: 1px solid var(--accent-color-dark);
+}
+
+.header__menu .header__menu-link:last-child {
+    margin-left: 9px;
+}

@@ -1,0 +1,19 @@
+@import url('./__select-type-box/furniture__select-type-box.css');
+@import url('./__content/furniture__content.css');
+@import url('./__content/__content-image-box/furniture__content-image-box.css');
+@import url('./__content/__content-types-box/furniture__content-types-box.css');
+
+.furniture {
+    padding-top: 12px;
+    padding-bottom: 100px;
+}
+
+.furniture__title {
+    margin-left: -67px;
+    color: var(--title-color-secondary);
+    font-family: var(--secondary-font);
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+}

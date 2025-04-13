@@ -1,0 +1,20 @@
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card__title {
+    color: var(--title-color-secondary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+
+.card__price {
+    color: var(--accent-color);
+    font-size: 24px;
+    line-height: 31px;
+
+}

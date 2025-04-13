@@ -1,0 +1,36 @@
+.furniture__select-type-box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 20px;
+}
+
+.furniture__type {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: var(--category-title-color);
+    font-size: 24px;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+
+.furniture__type:hover {
+    color: var(--accent-color);
+}
+
+.furniture__type--active {
+    color: var(--accent-color);
+    font-weight: 500;
+}
+
+.furniture__type--active::after, 
+.furniture__type:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    width: 60px;
+    height: 2px;
+    background-color: var(--accent-color);
+}
+

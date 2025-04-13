@@ -1,0 +1,6 @@
+.hero__image {
+    width: 411px;
+    height: 560px;
+    margin-top: -1px;
+    background-color: var(--accent-color);
+}

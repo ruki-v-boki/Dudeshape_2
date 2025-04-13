@@ -1,0 +1,19 @@
+.reviews__content {
+    padding-top: 105px;
+}
+
+.reviews__title {
+    max-width: 535px;
+    padding-bottom: 20px;
+    color: var(--title-color-secondary);
+    font-family: var(--secondary-font);
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.reviews__text {
+    max-width: 540px;
+    color: var(--text-color-secondary);
+    font-size: 20px;
+    line-height: 27px;
+}

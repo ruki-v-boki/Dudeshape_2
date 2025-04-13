@@ -1,0 +1,38 @@
+.hero__content {
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-color: var(--accent-color-dark);
+}
+
+.hero__title {
+    padding-bottom: 20px;
+    color: var(--bg-color);
+    font-family: var(--secondary-font);
+    font-size: 56px;
+}
+
+.hero__text {
+    width: 480px;
+    padding-bottom: 36px;
+    color: var(--bg-color);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.hero__link {
+    display: inline-block;
+    margin-right: auto;
+    padding: 14.5px 26px;
+    color: var(--accent-color);
+    font-size: 20px;
+    background-color: var(--bg-color);
+}
+
+.hero__link:hover {
+    outline: 1px solid var(--bg-color);
+    color: var(--bg-color);
+    background-color: var(--accent-color-dark);
+    transition: color 0.3s, background-color 0.3s, outline 0.3s;
+}

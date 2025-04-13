@@ -1,0 +1,19 @@
+.furniture__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+
+.furniture__content--room {
+}
+
+.furniture__content--category {
+
+}
+
+.furniture__content--style {
+
+}

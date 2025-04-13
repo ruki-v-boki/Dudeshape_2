@@ -1,0 +1,20 @@
+:root {
+    --main-font: 'DM Sans';
+    --secondary-font: 'Montserrat';
+
+    --bg-color: #ffff;
+    --shadow-color: #DEE4E2;
+    --accent-color: #154444;
+    --accent-color-dark: #244D4D;
+    --title-color: #161616;
+    --title-color-secondary: #242424;
+    --text-color: #444444;
+    --text-color-secondary: #383738;
+
+    --nav-arrow-hover-color: #666666;
+    --like-share-hover-color: #c5deff;
+    --like-share-active-color: #EF5423;
+
+    --category-title-color: #919090;
+    --border-color: #D9DCE5;
+}

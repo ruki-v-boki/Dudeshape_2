@@ -1,0 +1,21 @@
+.header__active-buttons-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-button:hover,
+.menu-button:hover {
+    outline: 1px solid var(--accent-color-dark);
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-button {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}

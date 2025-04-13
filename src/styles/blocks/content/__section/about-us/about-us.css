@@ -1,0 +1,10 @@
+@import url('./__image/about-us__image.css');
+@import url('./__content/about-us__content.css');
+@import url('./__content/__advantages/advantages.css');
+
+.about-us {
+    display: flex;
+    gap: 135px;
+    padding-bottom: 36px;
+    padding-inline: 31px;
+}

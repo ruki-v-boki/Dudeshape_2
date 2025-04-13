@@ -1,0 +1,11 @@
+@import url('./__image-box/review__image-box.css');
+@import url('./__content/reviews__content.css');
+@import url('./__author-box/reviews__author-box.css');
+
+
+.reviews {
+    display: flex;
+    padding-top: 50px;
+    gap: 100px;
+    padding-left: 120px;
+}

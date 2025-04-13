@@ -1,0 +1,6 @@
+@import url(./__image/hero__image.css);
+@import url(./__content/hero__content.css);
+
+.hero {
+    display: flex;
+}
