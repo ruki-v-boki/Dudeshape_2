@@ -58,6 +58,7 @@ ol {
 img {
   display: block;
   overflow: clip;
+  contain: paint;
 }
 
 .visually-hidden {

@@ -1,17 +1,11 @@
 .slider__slides-list {
+    position: relative;
     display: flex;
     gap: 30px;
-    position: relative;
-    transition: transform 1s ease;
-    will-change: transform;
+    width: max-content;
 }
 
-.position-0 { transform: translateX(0); }
-.position-1 { transform: translateX(-410px); }
-.position-2 { transform: translateX(-820px); }
-.position-3 { transform: translateX(-1230px); }
-.position-4 { transform: translateX(-1640px); }
-.position-5 { transform: translateX(-2050px); }
-
-
-
+.slides-list__item {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}

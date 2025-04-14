@@ -1,7 +1,11 @@
 .slider__slides-container {
     padding-top: 80px;
-    overflow: hidden;
     padding-bottom: 50px;
-    padding-left: 15px;
+    padding-inline: 15px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 15px;
+    scrollbar-width: none;
 }
 
