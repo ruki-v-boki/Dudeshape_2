@@ -16,3 +16,10 @@
     display: flex;
     gap: 15px;
 }
+
+.socials__button {
+    transition: transform 0.3s ease;
+}
+.socials__button:hover {
+    transform: scale(1.3);
+}

@@ -19,10 +19,17 @@
     fill: var(--nav-arrow-hover-color);
 }
 
-.slider__button-nav-disabled {
-    cursor: default;
-    pointer-events: none;
-}
 .slider__button-nav-disabled:hover svg path {
+    fill: #D1CECE;
+}
+
+.slider__button-nav--prev.disabled,
+.slider__button-nav--next.disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.slider__button-nav--prev.disabled:hover path,
+.slider__button-nav--next.disabled:hover path {
     fill: #D1CECE;
 }

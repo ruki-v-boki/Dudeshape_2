@@ -3,19 +3,25 @@
     gap: 10px;
 }
 
+.search-button,
+.menu-button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    outline: 1px solid transparent;
+    transition: outline 0.3s ease;
+}
+
+.menu-button {
+    padding: 0 0 0 10px;
+}
+
 .search-button:hover,
 .menu-button:hover {
     outline: 1px solid var(--accent-color-dark);
 }
 
-.search-button {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
-
-.menu-button {
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
+.search-button:focus-visible,
+.menu-button:focus-visible {
+    outline: 3px solid #FFB624;
 }

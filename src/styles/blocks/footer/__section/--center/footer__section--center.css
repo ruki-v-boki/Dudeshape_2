@@ -15,6 +15,7 @@
 .footer__list-item {
     font-weight: 400;
     font-size: 18px;
+    transition: transform 0.3s ease;
 }
 
 .footer__list-item--title {
@@ -22,4 +23,8 @@
     font-family: var(--secondary-font);
     font-size: 20px;
     line-height: 26px;
+}
+
+.footer__list-item:not(:first-child):hover {
+    transform: scale(1.1);
 }

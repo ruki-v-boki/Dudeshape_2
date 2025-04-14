@@ -4,8 +4,10 @@
 *::before {
   box-sizing: border-box;
 }
+
 *:focus-visible {
   outline: 3px solid #FFB624;
+  transition: outline 0.3s ease;
 }
 
 body {

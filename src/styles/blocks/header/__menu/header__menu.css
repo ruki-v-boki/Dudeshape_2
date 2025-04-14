@@ -10,12 +10,18 @@
     color: var(--title-color);
     font-size: 16px;
     text-transform: capitalize;
+    outline: 1px solid transparent;
+    transition: outline 0.3s ease;
+}
+
+.header__menu .header__menu-link:last-child {
+    margin-left: 9px;
 }
 
 .header__menu-link:hover {
     outline: 1px solid var(--accent-color-dark);
 }
 
-.header__menu .header__menu-link:last-child {
-    margin-left: 9px;
+.header__menu-link:focus-visible {
+    outline: 3px solid #FFB624;
 }
