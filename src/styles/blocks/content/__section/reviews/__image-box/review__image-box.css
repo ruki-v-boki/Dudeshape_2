@@ -12,11 +12,17 @@
 .reviews__image-box::before {
     content: '';
     position: absolute;
+    top: 0;
+    left: -105px;
+    z-index: -1;
     width: 492px;
     height: 492px;
-    left: -105px;
-    top: 0;
-    background-color: var(--accent-color-dark);
     border-radius: 50%;
-    z-index: -1;
+    opacity: 0;
+    background-color: var(--accent-color-dark);
+    transition: opacity 0.5s;
+}
+
+.reviews__image-box.animate-circle::before {
+    animation: grow 2s ease-out forwards;
 }

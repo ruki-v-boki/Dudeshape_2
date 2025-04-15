@@ -3,6 +3,6 @@
 @import url('./__slides-list/slider__slides-list.css');
 @import url('./card/card.css');
 
-.popular__slider {
+.slider {
     padding-bottom: 80px;
 }

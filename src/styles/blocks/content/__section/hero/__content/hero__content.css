@@ -27,6 +27,7 @@
     padding: 14.5px 26px;
     color: var(--accent-color);
     font-size: 20px;
+    text-transform: capitalize;
     background-color: var(--bg-color);
 }
 

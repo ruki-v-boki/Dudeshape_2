@@ -52,6 +52,11 @@ input {
   cursor: pointer;
 }
 
+button:active,
+a:active {
+  transform: scale(0.98)
+}
+
 ul,
 ol {
   list-style: none;

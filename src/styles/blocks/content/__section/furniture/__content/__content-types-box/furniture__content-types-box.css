@@ -15,6 +15,8 @@
     gap: 10px;
     border: 1.5px solid var(--border-color);
     padding-inline: 65px;
+    text-transform: capitalize;
+    transition: color 0.3s, background-color 0.3s;
 }
 
 .category-button-active {

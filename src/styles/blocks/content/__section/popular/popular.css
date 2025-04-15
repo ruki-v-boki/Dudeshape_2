@@ -3,6 +3,8 @@
 .popular {
     padding-top: 140px;
     padding-inline: 0;
+
+    overflow: hidden;
 }
 
 .popular__title {

@@ -1,10 +1,77 @@
 .scroll-animate {
     opacity: 0;
     transition: opacity 2s ease-out, transform 1s ease-out;
-    transform: translateY(30px);
+    transform: translateY(100px);
 }
 
 .scroll-animate-visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+@keyframes scroll-brands {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-49.5%);
+    }
+}
+
+@keyframes move-top-left {
+    0% {
+        transform: translate(-30%, -50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes move-bottom-right {
+    0% {
+        transform: translate(30%, 50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes move-left-angle {
+    0% {
+        transform: translate(5%, 5%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes move-left {
+    0% {
+        transform: translateX(60%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }

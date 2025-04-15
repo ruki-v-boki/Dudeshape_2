@@ -7,5 +7,12 @@
     scroll-snap-type: x mandatory;
     scroll-padding-inline: 15px;
     scrollbar-width: none;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.slider__slides-container.animate-slider {
+    animation: move-left 1.5s ease-out forwards;
+    opacity: 1;
 }
 

@@ -20,6 +20,7 @@
     font-family: var(--secondary-font);
     font-size: 20px;
     line-height: 26px;
+    text-transform: capitalize;
 }
 
 .advantages__item-text {

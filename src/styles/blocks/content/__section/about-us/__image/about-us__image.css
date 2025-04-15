@@ -1,5 +1,14 @@
-.about-us__image {
+.about-us__image-box {
     width: 596px;
     height: 577px;
     box-shadow: 36px 36px 0 0 var(--shadow-color);
+}
+
+.about-us__image {
+    object-fit: contain;
+    transform: translate(10%, 10%);
+}
+
+.about-us__image.animate-image {
+    animation: move-left-angle 2s ease forwards;
 }

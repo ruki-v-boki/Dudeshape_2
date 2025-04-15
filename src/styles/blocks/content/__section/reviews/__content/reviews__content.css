@@ -16,4 +16,9 @@
     color: var(--text-color-secondary);
     font-size: 20px;
     line-height: 27px;
+
+    /* opacity: 0; */
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
 }
+
