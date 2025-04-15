@@ -50,7 +50,7 @@ animatedBlocks.forEach(block => {
       entry.target.classList.add('scroll-animate-visible')
     }
   }, {
-    threshold: 0.5 // 50% видимости
+    threshold: 0.3 // 30% видимости
   })
 
   observer.observe(block)
