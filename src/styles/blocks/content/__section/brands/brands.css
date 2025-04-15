@@ -1,21 +1,38 @@
 .brands {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 142px;
 }
 
 .brands__title {
-    color: var(--accent-color-dark);
-    font-weight: 700;
-    font-size: 32px;
+  margin-bottom: 40px;
+  color: var(--accent-color-dark);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.brands__image {
+  width: auto;
+  object-fit: contain;
 }
 
 .brands__box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
-    padding-top: 40px;
-    padding-bottom: 139px;
+  position: relative;
+  width: 100%;
+  padding-bottom: 134px;
+  overflow: hidden;
+}
+
+.brands-scroller {
+  display: inline-flex;
+  gap: 100px;
+  padding-inline: 60px;
+  animation: scroll 30s linear infinite;
+  will-change: transform;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-49.5%); }
 }
