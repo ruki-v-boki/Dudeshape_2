@@ -17,7 +17,6 @@
 }
 
 .footer__copyright {
-    margin-top: auto;
     border-top: 1px solid #407980;
     padding-top: 20px;
     color: var(--bg-color);

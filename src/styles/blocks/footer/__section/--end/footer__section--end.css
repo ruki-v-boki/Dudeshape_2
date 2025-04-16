@@ -9,7 +9,7 @@
 }
 
 .footer__form-title {
-    padding-bottom: 24px;
+    padding-bottom: 23px;
     font-family: var(--secondary-font);
     font-size: 20px;
 }
@@ -24,7 +24,7 @@
 .footer__form-input-box {
     display: flex;
     align-items: center;
-    width: 253px;
+    min-width: 253px;
     padding: 10px 12px 9px 17px;
     background-color: var(--bg-color);
 }

@@ -1,7 +1,7 @@
 .card__buttons-box {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
 .like-share-buttons-box {
@@ -9,6 +9,12 @@
     justify-content: end;
     align-items: center;
     gap: 6px;
+}
+
+.like-share-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .like-share-buttons:hover svg circle {

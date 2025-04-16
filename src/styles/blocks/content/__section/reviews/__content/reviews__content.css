@@ -4,11 +4,15 @@
 
 .reviews__title {
     max-width: 535px;
-    padding-bottom: 20px;
     color: var(--title-color-secondary);
     font-family: var(--secondary-font);
     font-size: 32px;
     line-height: 48px;
+}
+
+.reviews__text-box {
+    min-height: 100px;
+    margin-bottom: 34px;
 }
 
 .reviews__text {
@@ -16,9 +20,7 @@
     color: var(--text-color-secondary);
     font-size: 20px;
     line-height: 27px;
-
-    /* opacity: 0; */
-    transform: translateY(20px);
     transition: opacity 1s ease-out, transform 1s ease-out;
+    transform: translateY(20px);
 }
 

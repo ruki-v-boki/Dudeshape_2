@@ -10,7 +10,7 @@ likeButtons.forEach(btn => {
 
 // ------------ СЛАЙДЕР ------------
 const slider = document.querySelector('.slider')
-const container = slider.querySelector('.slider__slides-container')
+const sliderContainer = slider.querySelector('.slider__slides-container')
 
 function initSlider(slider) {
   const slides = slider.querySelectorAll('.slides-list__item')
@@ -19,22 +19,22 @@ function initSlider(slider) {
   const nextBtn = slider.querySelector('.slider__button-nav--next')
 
   function checkButtons() {
-    const atStart = container.scrollLeft === 0
-    const atEnd = container.scrollLeft + container.clientWidth >= container.scrollWidth - 1
+    const atStart = sliderContainer.scrollLeft === 0
+    const atEnd = sliderContainer.scrollLeft + sliderContainer.clientWidth >= sliderContainer.scrollWidth - 1
 
     prevBtn.classList.toggle('disabled', atStart)
     nextBtn.classList.toggle('disabled', atEnd)
   }
 
   prevBtn.addEventListener('click', () => {
-    container.scrollLeft -= slideWidth
+    sliderContainer.scrollLeft -= slideWidth
   })
 
   nextBtn.addEventListener('click', () => {
-    container.scrollLeft += slideWidth
+    sliderContainer.scrollLeft += slideWidth
   })
 
-  container.addEventListener('scroll', checkButtons)
+  sliderContainer.addEventListener('scroll', checkButtons)
   checkButtons()
 }
 
@@ -49,80 +49,40 @@ const reviewText = document.querySelector('.reviews__text')
 const aboutUsImage = document.querySelector('.about-us__image')
 
 
-// Появление
-animatedBlocks.forEach(block => {
+function setAnimation(block, animationClass) {
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('scroll-animate-visible');
+        entry.target.classList.add(`${animationClass}`)
         observer.unobserve(entry.target)
       }
     })
   }, {
-    threshold: 0.5 // % видимости
+    threshold: 0.5 // 50% видимости блока
   })
 
   observer.observe(block)
-});
+}
 
-//Рамки Картинки
-const imageBordersObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animate-borders')
-      imageBordersObserver.unobserve(entry.target)
-    }
-  })
-}, {
-  threshold: 0.5
-  })
 
-imageBordersObserver.observe(imageBox)
-
-//Кружок
-const circleObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animate-circle')
-      circleObserver.unobserve(entry.target)
-    }
-  })
-}, {
-  threshold: 0.5
-  })
-
-circleObserver.observe(reviewImage)
+// Появление
+animatedBlocks.forEach(block => {
+  setAnimation(block, 'scroll-animate-visible')
+})
 
 //О нас
-const aboutUsObserver = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animate-image')
-      observer.unobserve(entry.target)
-    }
-  })
-}, {
-  threshold: 0.5,
-})
-
-aboutUsObserver.observe(aboutUsImage)
+setAnimation(aboutUsImage, 'animate-image')
 
 //Слайдер
-const sliderObserver = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animate-slider')
-      observer.unobserve(entry.target)
-    }
-  })
-}, {
-  threshold: 0.5,
-})
+setAnimation(sliderContainer, 'animate-slider')
 
-sliderObserver.observe(container)
+//Рамки Картинки (All furniture)
+setAnimation(imageBox, 'animate-borders')
+
+//Кружок
+setAnimation(reviewImage, 'animate-circle')
 
 //Текст
-
 const textObserver = new IntersectionObserver(entries => {
   if (entries[0].isIntersecting) {
     const text = reviewText.textContent

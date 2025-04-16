@@ -1,0 +1,41 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "target": "ES6",
+    "strict": true
+  },
+
+  "files": [
+    ".src/core.ts",
+    ".src/app.ts"
+  ],
+
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "./src/**/*.spec.ts"
+  ], 
+
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+
+  "scripts": {
+    "start": "ts-node ./script.ts",
+    "build": "tsc src/index.ts --declaration",
+    "build:dev": "tsc src/index.ts --sourceMap",
+    "watch": "tsc src/index.ts --watch"
+
+    
+  }
+
+}

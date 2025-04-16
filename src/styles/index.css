@@ -2,6 +2,7 @@
 @import url('./globals.css');
 @import url('./variables.css');
 
+@import url('./blocks/page/page.css');
 @import url('./blocks/header/header.css');
 @import url('./blocks/content/content.css');
 @import url('./blocks/footer/footer.css');

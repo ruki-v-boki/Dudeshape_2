@@ -11,15 +11,7 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding-block-start: 36px;
-  font-family: 'DM Sans', 'Montserrat', sans-serif;
-  font-weight: normal;
-  inline-size: 1440px;
+  margin: 0;
 }
 
 h1,
